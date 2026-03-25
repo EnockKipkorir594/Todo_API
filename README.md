@@ -1,7 +1,7 @@
-#Todo List REST API 
+# Todo List REST API 
 A simple RESTFul Api to manage todos, built with python, Flask and SQLite
 
-##Tech Stack 
+## Tech Stack 
 - **Python 3.12**
 - **Flask** - Web framework
 - **Flask-SQLAlchemy** - ORM
@@ -10,7 +10,7 @@ A simple RESTFul Api to manage todos, built with python, Flask and SQLite
 
 
 ### Project Structure 
-'''
+```
 todo-api/
 ├── app/
 │   ├── __init__.py        # App factory
@@ -24,40 +24,41 @@ todo-api/
 ├── config.py              # App configuration
 ├── run.py                 # Entry point
 └── requirements.txt       # Project dependencies
-'''
-##Getting Started 
+```
+## Getting Started 
 
-###Prerequisites
+### Prerequisites
 
 Make sure you have python 3.12+ installed on your machine
 
-#Installation 
+# Installation 
 
 1.Clone the repository 
-'''bash
+```bash
 git clone https://github.com/Enock594/Todo_Api.git 
 cd Todo_Api
-'''
+```
 2.Create and activate a virtual environment
-'''bash
+```bash
 python3 -m venv venv or
-python -m venv venv 
-#linux/Mac
-source /venv/bin/activate
-#Windows
-source/Scripts/activate
+python -m venv venv
 
+# linux/Mac
+source /venv/bin/activate
+# Windows
+source/Scripts/activate
+```
 3.Install dependencies 
-'''bash 
+```bash 
 pip install -r requirements.txt 
-'''
+```
 4.Create a '.env' file in the project root
-'''bash
+```bash
 SECRET_KEY=your-secret=key-here
 DATABASE_URL='sqlite:///todos.db'
-'''
+```
 
-##API Endpoints
+## API Endpoints
 
 |Method  | Endpoint | Description|
 |--------|----------|------------|
